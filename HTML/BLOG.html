@@ -1,0 +1,276 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>BLOG</title>
+</head>
+<style>
+	body{
+		background-color: #F1F1F1;
+		width: 1024px;
+		height: 1280px;
+	}
+	.container{
+display: flex;
+flex-wrap:nowrap;
+flex-direction: row;
+}
+	.flex-container2{
+display: flex;
+justify-content: flex-end;
+	}
+	.flex-container3{
+		padding-left: 5%;
+	margin: 10px;	
+	}
+	.menu ul{
+	text-align: center; 
+}
+.menu ul li{
+	
+	display: inline-block;
+	
+}
+.menu ul li a{
+	text-decoration: none;
+}
+.menu ul li a:link{
+	background-color: #F5F5F5;
+	color: black;
+	padding-left: 55px;
+	padding-right: 55px;
+	border-style: solid;
+	}
+	h1, h2{
+	width: 190px;
+	padding: 10px;
+	background-color: #cac7ce;
+	font-size: 18px;
+	margin-left: 65px;
+	text-align: center;
+	}
+	.container_fotos{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin: 20px;
+	margin-left: 65px;
+	
+	}
+	.grid1 {
+  position:relative;
+  width: 40%;
+display: flex;
+flex-direction: row;
+}
+	.image{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #cac7ce;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.grid1:hover .overlay {
+  width: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+text-align: center;
+}
+	
+.grid2 {
+  position:relative;
+  width: 40%;
+
+}
+	.image2{
+		display: flex;
+flex-direction: row;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay2{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #cac7ce;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.grid2:hover .overlay2{
+  width: 100%;
+}
+
+.text2{
+  white-space: nowrap; 
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+text-align: center;
+}
+
+	.grid3 {
+  position:relative;
+  width: 40%;
+display: flex;
+flex-direction: row;
+}
+	.image3{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay3{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #cac7ce;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.grid3:hover .overlay3{
+  width: 100%;
+}
+
+.text3{
+  white-space: nowrap; 
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+text-align: center;
+}
+	.videos{
+	display: flex;
+	flex-direction: row;
+	width: 30%;
+	height: 20%;
+	
+	margin-left: 90px;
+	
+	}
+</style>
+
+<body>
+	<header>
+		<div class="container">
+		
+<div><ul><a href="index.html" target="_parent"><img src="../MEDIA/museo.png" alt="museoarte"></a></ul></div>
+<div><ul><a href="https://www.gob.mx/cultura" target="_blank"><img src="../MEDIA/cultura.png" alt="Cultura"></a></ul></div>
+<div><ul><a href="https://inba.gob.mx/" target="_blank"><img src="../MEDIA/INBAL.png" alt="INBAL"></a></ul></div>
+				
+		</div>
+		
+		<div class="flex-container2">
+<div><ul><a href="https://www.facebook.com/munal.inba" target="_blank"><img src="../MEDIA/fb (1).png" alt="Facebook"></a></ul></div>
+<div><ul><a href="https://twitter.com/MUNALmx" target="_blank"	><img src="../MEDIA/tw (1).png" alt="X"></a></ul></div>
+<div><ul><a href="https://www.instagram.com/munalmx/" target="_blank"
+			><img src="../MEDIA/ig.png" alt="Instagram"></a></ul></div>
+			
+<div class="flex-container3">
+		<input type="text" placeholder="Buscar"></div>
+			</div>
+		</header>
+	
+	<nav class="menu">
+	<ul>
+	<li><a href="../index.html" target="_self">MUSEO</a></li>
+	<li><a href="EXPOSICIONES.html"
+		   target="_self">EXPOSICIONES</a></li>
+	<li><a href="ACTIVIDADES.html" target="_self">ACTIVIDADES</a></li>
+	<li><a href="OBRAS.html" target="_self">OBRAS</a></li>
+	<li><a href="BLOG.html" target="_self">BLOG</a></li>
+	</ul>
+	</nav>
+
+<h1>Conoce Más</h1>
+<div class="container_fotos">
+	
+	
+<div class="grid1">
+	<img src="../MEDIA/conoce1.JPG" alt="Pintura1" class="image">
+	<div class="overlay">
+	<div class="text">El “alma nacional”. <br>
+Saturnino Herrán, <br>
+del simbolismo internacional<br>
+ al nacionalismo modernista.</div>
+	</div>
+	</div>
+	
+	<div class="grid2">
+	<img src="../MEDIA/conoce2.JPG" alt="Pintura2" class="image2">
+	<div class="overlay2">
+	<div class="text2">Saturnino Herrán y<br>
+ el problema de la identidad</div>
+	</div>
+	</div>
+	
+	<div class="grid3">
+	<img src="../MEDIA/conoce3.jpg" alt="Pintura3" class="image3">
+	<div class="overlay3">
+	<div class="text3">Nahui Olin y la Historia <br>
+del Arte como una <br>
+articulación de poder.
+		</div>
+	</div>
+	</div>
+	</div>
+	
+	<h2>VIDEOS</h2>
+	
+	<div class="videos">
+	<iframe src="https://www.youtube.com/embed/tl8Q6j0woy0?si=XEEBfPmblYVn4jbn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		
+	<iframe  src="https://www.youtube.com/embed/mFXNPxwhGQA?si=DfLBrkvgyo92DsH9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		
+	<iframe src="https://www.youtube.com/embed/k7-jERD8ObU?si=RaPJovng7qYd8zne" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		
+	</div>
+
+	
+</body>
+	<footer>
+	<img src="../MEDIA/footer.png"
+		 alt="pie de página">
+	</footer>
+</html>
